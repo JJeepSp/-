@@ -47,7 +47,16 @@ def cal() :
       print("-------------------------")
       print("ข้อมูลผิดพลาด กรุณาตรวจสอบข้อมูลอีกครั้ง\n")
       eday()
+    elif byear==thisy and month>thism :
+      print("-------------------------")
+      print("ข้อมูลผิดพลาด กรุณาตรวจสอบข้อมูลอีกครั้ง\n")
+      eday()
+    elif byear==thisy and month<=thism and day>thisd :
+      print("-------------------------")
+      print("ข้อมูลผิดพลาด กรุณาตรวจสอบข้อมูลอีกครั้ง\n")
+      eday()
   eyear()
+
 
   print("\nคุณเกิดวันที่", day, "เดือน", month, "ปีพ.ศ.", year, "( ค.ศ.", byear,
       ")")
